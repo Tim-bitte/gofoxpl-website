@@ -1,0 +1,1049 @@
+
+*,
+*::before, *::after{
+    margin:  0;
+    padding: 0;
+    position: relative;
+    box-sizing: border-box;
+}
+body{
+    background: rgba(238, 238, 238, 1);
+}
+
+/*------------------------------------*/
+
+.header__page__section{
+    width: 1920px;
+    height: 128px;
+    background-color: rgba(57, 57, 57, 1);
+    font-family: "Noto Sans", sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    border: 0.1rem solid white;
+}
+
+.elems__placement{
+    width: 641px;
+    height: 28px;
+    opacity: 1;
+    gap: 15px;
+    left: 650px;
+    top: 50px;
+    display: flex;
+    color: white;
+    font-weight: 500;
+    font-size: 20px;
+}
+
+.header__img{
+    left: 420px;
+}
+.header__img img{
+    width: 90px;
+    height: 84px;
+}
+/*------------------------------------*/
+.header__purchasing{
+    width: 1920px;
+    height: 363px;
+    background-color: rgba(57, 57, 57, 1);
+    justify-items: center;
+    padding: 2%;
+}
+.together2{
+    right: 193px;
+    bottom: 140px;
+    font-size: 35px;
+    font-family: "Poppins", sans-serif;
+}
+.header__text{
+    left: 10px;
+    font-weight: 700;
+    color: white;
+}
+.header__text2{
+    color: rgba(248, 124, 52, 1);
+    font-weight: 700;
+    left: 115px;
+    bottom: 80px;
+}
+.fox__img{
+    right: 375px;
+    top: 95px;
+}
+.fox__img img{
+    width: 162px;
+    height: 149px;
+}
+.together3{
+    bottom: 190px;
+    left: 50px;
+}
+.under__score{
+    width: 440px;
+    height: 0;
+    border-radius: 2rem;
+    bottom: 35px;
+    left: 90px;
+    border: 3px solid rgba(248, 124, 52, 1);
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.mid__text{
+    font-weight: 600;
+    font-size: 40px;
+    bottom: 30px;
+    font-family: "Roboto", sans-serif;
+    left: 90px;
+    line-height: 100%;
+    color: white;
+    margin-right: 230px;
+}
+.together1{
+    display: flex;
+    right: 160px;
+    bottom: 25px;
+}
+.svg {
+    width: 22px;
+    height: 23px;
+    left: 252px;
+    top: 8px;
+    background: rgba(248, 124, 52, 1);
+}
+.foot__text{
+    color: rgba(248, 124, 52, 1);
+    font-family: "Montserrat", sans-serif;
+    font-size: 20px;
+    left: 260px;
+    top: 8px;
+}
+
+.button__click{
+    width: 201px;
+    height: 46px;
+    font-weight: 500;
+    font-family: "Urbanist", sans-serif;
+    font-size: 25px;
+    margin: 14px;
+    left: 530px;
+    bottom: 169px;
+    border: none;
+    background-color: white;
+    border-radius: 1rem 1rem 0rem 0rem;
+}
+.car__img img{
+    width: 579px;
+    height: 268px;
+    left: 605px;
+    bottom: 452px;
+}
+.car__background{
+    bottom: 663px;
+    left: 643px;
+}
+.car__background img{
+    width: 635px;
+    height: 370px;
+    opacity: 20%;
+    bottom: 163px;
+    /* z-index: 1; */
+    /* transform: rotate(90deg); */
+}
+/*------------------------------------*/
+.hello__measure{
+    width: 1920px;
+    height: 1100px;
+}
+.hello__block{
+    width: 1050px;
+    height: 971px;
+    top: 70px;
+    justify-self: center;
+}
+.hello__block__title{
+    left: 45px;
+    bottom: 20px;
+}
+.hello__block__title h1{
+    justify-self: center;
+    font-size: 42px;
+    font-weight: 600;
+    right: 70px;
+}
+.hello__block__title h2{
+    color: rgba(248, 124, 52, 1);
+    left: 832px;
+    bottom: 47px;
+    font-weight: 600;
+    font-size: 42px;
+}
+.info{
+    width: 1200px;
+    height: 350px;
+    border: 4px solid rgba(248, 124, 52, 1);
+    font-family: "Noto Sans", sans-serif;
+}
+.info__together{
+    bottom: 10px;
+}
+.info__circle{
+    width: 282px;
+    height: 282px;
+    position: absolute;
+    top: 120px;
+    left: 780px;
+    border-radius: 15em 15em 15em 15em;
+    background: rgba(57, 57, 57, 1);
+}
+.info__logo{
+    display: flex;
+    left: 80px;
+    top: 280px;
+}
+.first__h1{
+    right: 55px;
+    bottom: 160px;
+}
+.first__h1 h1{
+    font-family: "Poppins", sans-serif;
+    font-size: 40px;
+    color: white;
+}
+.second__h1{
+    right: 55px;
+    bottom: 160px;
+}
+.second__h1 h1{
+    font-family: "Poppins", sans-serif;
+    font-size: 40px;
+    color: rgba(248, 124, 52, 1);
+}
+.fox__img3{
+    right: 60px;
+    bottom: 180px;
+}
+
+
+.info h1{
+    left: 30px;
+    top: 20px;
+    font-weight: 600;
+    font-size: 36px;
+}
+.special__h3{
+    bottom: 20px;
+}
+.info__h3__mix{
+    font-weight: 400;
+    font-size: 20px;
+    gap: 15px;
+    color: rgba(69, 69, 69, 1);
+    margin-top: 20px;
+    left: 30px;
+    top: 50px;
+}
+/*------------------------------------*/
+.infsecond__part{
+    top: 80px;
+    font-family: "Noto Sans", sans-serif;
+    left: 40px;
+}
+.first__part{
+    left: 440px;
+    bottom: 60px;
+}
+.first__h__position{
+    color: rgba(248, 124, 52, 1);
+    font-size: 60px;
+    font-weight: 500;
+    top: 53px;
+    left: 434px;
+}
+.first__position{
+    color: rgba(0, 0, 0, 1);
+    font-size: 24px;
+    font-weight: 600;
+    left: 440px;
+    top: 50px;
+}
+
+.second__part{
+    left: 440px;
+    bottom: 60px;
+}
+.second__h__position{
+    color: rgba(248, 124, 52, 1);
+    font-size: 60px;
+    font-weight: 500;
+    top: 53px;
+    left: 436px;
+}
+.second__position{
+    left: 440px;
+    top: 50px;
+    color: rgba(0, 0, 0, 1);
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.third__part{
+    left: 440px;
+    bottom: 60px;
+}
+.third__h__position{
+    color: rgba(248, 124, 52, 1);
+    font-size: 60px;
+    font-weight: 500;
+    top: 53px;
+    left: 438px;
+}
+.third__position{
+    left: 440px;
+    top: 50px;
+    color: rgba(0, 0, 0, 1);
+    font-size: 24px;
+    font-weight: 600;
+}
+/*------------------------------------*/
+.textp__position{
+    bottom: 90px;
+    font-weight: 500;
+    font-size: 20px;
+    color: rgba(69, 69, 69, 1);
+    font-family: "Noto Sans", sans-serif;
+}
+.first_p{
+    bottom: 200px;
+    margin: 0px 3px 18px 0px;
+}
+.second_p{
+    margin: 0px 3px 18px 0px;
+    bottom: 190px;
+}
+.third_p{
+    margin: 0px 3px 18px 0px;
+    bottom: 180px;
+}
+
+
+.services__measure{
+    width: 2300px;
+    height: 397px;
+    background: rgba(248, 124, 52, 1);
+    font-family: "Noto Sans", sans-serif;
+}
+.services__measure h1{
+    justify-self: center;
+    font-size: 42px;
+    font-weight: 600;
+    right: 150px;
+    top: 20px;
+    color: white;
+}
+
+/*--------------------------------------- */
+.first__block{
+    width: 390px;
+    height: 200px;
+    background: rgba(255, 255, 255, 1);
+    justify-self: center;
+    top: 40px;
+    right: 560px;
+    border-radius: 20px 20px 20px 20px;
+}
+.first__block h2{
+    top: 25px;
+    justify-self: center;
+    font-weight: 500;
+    font-size: 30px;
+}
+.under__score1{
+    width: 340px;
+    justify-self: center;
+    height: 0;
+    border-radius: 2rem;
+    top: 77px;
+    border: 2px solid rgba(248, 124, 52, 1);
+}
+.emoji__background1{
+    width: 37px;
+    height: 37px;
+    top: 100px;
+    left: 16px;
+    background: rgba(248, 124, 52, 1);
+    border-radius: 15em 15em 15em;
+}
+/* .emoji__1{
+
+} */
+.arrow__1{
+    font-size: xx-large;
+    left: 330px;
+    top: 60px;
+}
+
+
+
+.second__block{
+    width: 390px;
+    height: 200px;
+    background: rgba(255, 255, 255, 1);
+    justify-self: center;
+    bottom: 160px;
+    right: 150px;
+    border-radius: 20px 20px 20px 20px;
+}
+.second__block h2{
+    top: 25px;
+    justify-self: center;
+    font-weight: 500;
+    font-size: 30px;
+}
+.under__score2{
+    width: 340px;
+    justify-self: center;
+    height: 0;
+    border-radius: 2rem;
+    top: 36px;
+    border: 2px solid rgba(248, 124, 52, 1);
+}
+.emoji__background2{
+    width: 37px;
+    height: 37px;
+    top: 59px;
+    left: 16px;
+    background: rgba(248, 124, 52, 1);
+    border-radius: 15em 15em 15em;
+}
+/* .emoji__2{
+
+} */
+.arrow__2{
+    font-size: xx-large;
+    left: 330px;
+    top: 20px;
+}
+
+
+.third__block{
+    width: 390px;
+    height: 200px;
+    background: rgba(255, 255, 255, 1);
+    justify-self: center;
+    left: 260px;
+    bottom: 360px;
+    border-radius: 20px 20px 20px 20px;
+}
+.third__block h2{
+    top: 25px;
+    justify-self: center;
+    font-weight: 500;
+    font-size: 30px;
+}
+.under__score3{
+    width: 340px;
+    justify-self: center;
+    height: 0;
+    border-radius: 2rem;
+    top: 75px;
+    border: 2px solid rgba(248, 124, 52, 1);
+}
+.emoji__background3{
+    width: 37px;
+    height: 37px;
+    background: rgba(248, 124, 52, 1);
+    border-radius: 15em 15em 15em;
+    top: 100px;
+    left: 16px;
+}
+/* .emoji__3{
+
+} */
+ .arrow__3{
+    font-size: xx-large;
+    left: 330px;
+    top: 60px;
+ }
+ 
+ /* .car__background2 img{
+    width: 260px;
+    height: 400px;
+    right: 1200px;
+    bottom: 185px;
+    transform: rotate(180deg);
+ } */
+/*--------------------------------------- */
+
+.main__selection{
+    width: 1180px;
+    height: 607px;
+    top: 100px;
+    justify-self: center;
+    font-family: "Noto Sans", sans-serif;
+}
+.main__selection h1{
+    justify-self: center;
+    font-weight: 1px solid black;
+    font-size: 42px;
+    margin: 30px;
+    bottom: 30px;
+    left: 240px;
+}
+
+/*--------------------------------------- */
+
+.first__product{
+    width: 280px;
+    height: 234px;
+    left: 240px;
+    background: rgba(255, 255, 255, 1);
+}
+.first__product h3{
+    justify-self: center;
+    font-weight: 500;
+    font-size: 20px;
+    top: 10px;
+}
+.first__product img{
+    width: 231px;
+    height: 155px;
+    top: 40px;
+    left: 20px;
+}
+
+
+.second__product{
+    width: 280px;
+    height: 234px;
+    background: rgba(255, 255, 255, 1);
+    left: 543px;
+    bottom: 233px;
+}
+.second__product h3{
+    justify-self: center;
+    font-weight: 500;
+    font-size: 20px;
+    top: 10px;
+}
+.second__product img{
+    width: 231px;
+    height: 155px;
+    top: 40px;
+    left: 20px;
+}
+
+.third__product{
+    width: 280px;
+    height: 234px;
+    background: rgba(255, 255, 255, 1);
+    left: 848px;
+    bottom: 465px;
+}
+.third__product h3{
+    justify-self: center;
+    font-weight: 500;
+    font-size: 20px;
+    top: 10px;
+}
+.third__product img{
+    width: 156px;
+    height: 155px;
+    top: 40px;
+    left: 40px;
+}
+
+.fourth__product{
+    width: 280px;
+    height: 234px;
+    background: rgba(255, 255, 255, 1);
+    left: 1155px;
+    bottom: 700px;
+}
+.fourth__product h3{
+    justify-self: center;
+    font-weight: 500;
+    font-size: 20px;
+    top: 10px;
+}
+.fourth__product img{
+    width: 231px;
+    height: 155px;
+    top: 40px;
+    left: 20px;
+}
+
+.fifth__product{
+    width: 280px;
+    height: 234px;
+    bottom: 680px;
+    left: 240px;
+    background: rgba(255, 255, 255, 1);
+}
+.fifth__product h3{
+    justify-self: center;
+    font-weight: 500;
+    font-size: 20px;
+    top: 10px;
+}
+.fifth__product img{
+    width: 231px;
+    height: 155px;
+    top: 40px;
+    left: 20px;
+}
+
+.sixth__product{
+    width: 280px;
+    height: 234px;
+    background: rgba(255, 255, 255, 1);
+    left: 543px;
+    bottom: 915px;
+}
+.sixth__product h3{
+    justify-self: center;
+    font-weight: 500;
+    font-size: 20px;
+    top: 10px;
+}
+.sixth__product img{
+    width: 152px;
+    height: 154px;
+    top: 40px;
+    left: 65px;
+}
+
+.seventh__product{
+    width: 280px;
+    height: 234px;
+    background: rgba(255, 255, 255, 1);
+    left: 848px;
+    bottom: 1150px;
+}
+.seventh__product h3{
+    justify-self: center;
+    font-weight: 500;
+    font-size: 20px;
+    top: 10px;
+}
+.seventh__product img{
+    width: 231px;
+    height: 155px;
+    top: 40px;
+    left: 20px;
+}
+
+.eighth__product{
+    width: 280px;
+    height: 234px;
+    background: rgba(255, 255, 255, 1);
+    left: 1155px;
+    bottom: 1383px;
+}
+
+.eighth__product h3{
+    justify-self: center;
+    font-weight: 500;
+    font-size: 20px;
+    top: 10px;
+}
+.eighth__product img{
+    width: 153px;
+    height: 154px;
+    top: 40px;
+    left: 50px;
+}
+
+/*--------------------------------------- */
+
+.main__help{
+    width: 1200px;
+    height: 837px;
+    border: 4px solid rgba(248, 124, 52, 1);
+    font-family: "Noto Sans", sans-serif;
+    left: 410px;
+    top: 200px;
+}
+.main__help h1{
+    left: 580px;
+    top: 30px;
+    font-size: 36px;
+}
+
+.personal__info{
+    top: 340px;
+    left: 160px;
+    font-size: 24px;
+}
+.personal__info h2{
+    bottom: 5px;
+    right: 30px;
+    font-weight: 600;
+}
+.personal__info p{
+    font-weight: 400;
+    right: 50px;
+    color: rgba(69, 69, 69, 1);
+
+}
+.personal__info h3{
+    top: 10px;
+    right: 25px;
+}
+.input__size{
+    bottom: 30px;
+}
+.input__size input{
+    font-size: 24px;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+.example{
+    width: 480px;
+    height: 200px;
+    left: 635px;
+    border-radius: 1rem 1rem 1rem 1rem;
+    border: 5em;
+}
+.example::placeholder{
+    font-size: 24px;
+    font-weight: 400;
+    position: relative;
+    bottom: 70px;
+    left: 20px;
+}
+.name{
+    width: 480px;
+    height: 80px;
+    left: 150px;
+    top: 160px;
+    border-radius: 1rem 1rem 1rem 1rem;
+    border: 5em;
+}
+.name::placeholder{
+    font-size: 24px;
+    font-weight: 400;
+    position: relative;
+    left: 20px;
+}
+.number{
+    width: 480px;
+    height: 80px;
+    top: 120px;
+    left: 635px;
+    border-radius: 1rem 1rem 1rem 1rem;
+    border: 5em;
+}
+.number::placeholder{
+    font-size: 24px;
+    font-weight: 400;
+    position: relative;
+    left: 20px;
+}
+.email{
+    width: 480px;
+    height: 80px;
+    left: 150px;
+    top: 230px;
+    border-radius: 1rem 1rem 1rem 1rem;
+    border: 5em;
+}
+.email::placeholder{
+    font-size: 24px;
+    font-weight: 400;
+    position: relative;
+    left: 20px;
+}
+.button__click1{
+    width: 480px;
+    height: 80px;
+    background: rgba(248, 124, 52, 1);
+    border: none;
+    font-size: 24px;
+    line-height: 100%;
+    left: 1051px;
+    top: 90px;
+}
+.button__click1 h2{
+    font-weight: 400;
+    color:rgba(255, 255, 255, 1);
+}
+
+/*--------------------------------------- */
+
+.footer__goods{
+    width: 1920px;
+    height: 583px;
+    background: rgba(248, 124, 52, 1);
+    font-family: "Noto Sans", sans-serif;
+    top: 170px;
+}
+
+.footer__goods__h1{
+    width: 325px;
+    height: 50px;
+    background: rgba(57, 57, 57, 1);
+    color: white;
+    align-content: center;
+    border-radius: 0px 20px 20px 0px;
+    top: 185px;
+    left: 415px;
+    z-index: 2;
+}
+.footer__goods__h1 h1{
+    left: 20px;
+    font-size: x-large;
+}
+.first__table{
+    width: 1100px;
+    height: 324px;
+    background: rgba(234, 231, 231, 1);
+    border-radius: 20px 20px 20px 20px;
+    left: 470px;
+    top: 160px;
+}
+
+.second__table{
+    width: 1150px;
+    height: 324px;
+    background: rgba(248, 246, 246, 1);
+    border-radius: 20px 20px 20px 20px;
+    left: 440px;
+    bottom: 190px;
+    z-index: 1;
+}
+.second__table h3{
+    font-size: 24px;
+    font-weight: 400;
+    top: 120px;
+    left: 70px;
+    color: rgba(69, 69, 69, 1);
+
+}
+.second__table__h2{
+    top: 185px;
+    left: 100px;
+    font-weight: 600;
+    font-size: 26px;
+}
+.transparent__h2{
+    top: 149px;
+    left: 112px;
+    color: rgb(108, 107, 107);
+    font-weight: 600;
+    font-size: 26px;
+}
+
+.circle1{
+    width: 30px;
+    height: 30px;
+    background-color: rgba(57, 57, 57, 1);
+    border-radius: 20px 20px 20px 20px;
+    left: 66px;
+    top: 118px;
+}
+.circle2{
+    width: 30px;
+    height: 30px;
+    background-color: rgba(57, 57, 57, 1);
+    border-radius: 20px 20px 20px 20px;
+    left: 159px;
+    top: 87px;
+}
+.button__clickt{
+    width: 240px;
+    height: 48px;
+    border-radius:  25px 25px 25px 25px;
+    background: rgba(248, 124, 52, 1);
+    border: none;
+    left: 346px;
+    bottom: 170px;
+}
+.button__clickt p{
+    font-size: 24px;
+    color: white;
+    font-weight: 400;
+    line-height: 100%;
+}
+
+.second__table img{
+    width: 260px;
+    height: 260px;
+    bottom: 175px;
+    left: 480px;
+}
+
+
+.third__table{
+    width: 1200px;
+    height: 324px;
+    background: rgba(234, 231, 231, 1);
+    border-radius: 20px 20px 20px 20px;
+    justify-self: center;
+    bottom: 545px;
+    left: 55px;
+}
+
+/* .car__background3 img{
+    left: 1650px;
+    width: 270px;
+    height: 580px;
+    bottom: 1022px;
+    transform: rotate(180deg);
+} */
+
+/* -------------------------------- */
+
+.info__about{
+    width: 1980px;
+    height: 812px;
+    top: 210px;
+    background: rgba(248, 124, 52, 1);
+    font-family: "Noto Sans", sans-serif;
+    color: white;
+}
+.info__about h1{
+    font-size: 42px;
+    font-weight: 600;
+    left: 317px;
+    top: 50px;
+}
+.first__parti{
+    top: 64px;
+    left: 317px;
+}
+.firsti__h3{
+    top: 15px;
+}
+.first__parti h2{
+    font-size: 36px;
+    top: 30px;
+    font-weight: 600;
+}
+.first__parti h3{
+    font-size: 30px;
+    font-weight: 400;
+    top: 50px;
+}
+.second__parti{
+    top: 174px;
+    left: 315px;
+}
+
+.second__parti h2{
+    font-size: 36px;
+    font-weight: 600;
+}
+.secondi__h3{
+    top: 15px;
+}
+.second__parti h3{
+    font-weight: 400;
+    font-size: 30px;
+}
+.secondi__h2{
+    top: 50px;
+    right: 3px;
+    font-size: 36px;
+    font-weight: 500;
+}
+.third__parti{
+    left: 760px;
+    bottom: 130px;
+}
+.third__parti h2{
+    font-size: 36px;
+    font-weight: 600;
+}
+.thirdi__h3{
+    top: 15px;
+}
+.third__parti h3{
+    font-weight: 400;
+    font-size: 30px;
+}
+.fourth__parti{
+    left: 760px;
+    bottom: 30px;
+}
+.fourth__parti h2{
+    font-size: 36px;
+    font-weight: 600;
+}
+.fourth__h3{
+    top: 15px;
+}
+.fourth__parti h3{
+    font-weight: 400;
+    font-size: 30px;
+}
+.button__clicki{
+    width: 292px;
+    height: 64px;
+    background: rgba(73, 73, 73, 1);
+    font-size: 24px;
+    font-weight: 500;
+    border-radius: 25px 25px 25px 25px;
+    border-color: white;
+    left: 760px;
+    top: 20px;
+}
+.button__clicki h3{
+    color: rgba(255, 255, 255, 1);
+}
+.google__maps img{
+    width: 530px;
+    height: 404px;
+    left: 1090px;
+    bottom: 330px;
+}
+
+.vk__img img{
+    width: 62px;
+    height: 60px;
+    left: 350px;
+    bottom: 390px;
+}
+.instagram__img img{
+    width: 60px;
+    height: 60px;
+    left: 450px;
+    bottom: 455px;
+}
+.telegram__img img{
+    width: 60px;
+    height: 60px;
+    left: 540px;
+    bottom: 520px;
+}
+.under__scorei{
+    width: 1918px;
+    height: 6px;
+    background: rgba(255, 255, 255, 1);
+    bottom: 290px;
+}
+.info__statics{
+    font-family: "Noto Sans", sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+    background: rgba(255, 255, 255, 1);
+}
+.info__foot1{
+    bottom: 470px;
+    left: 310px;
+}
+.info__foot2{
+    bottom: 508px;
+    left: 550px;
+}
+.info__foot3{
+    bottom: 546px;
+    left: 880px;
+}
+.info__foot4{
+    bottom: 585px;
+    left: 1075px;
+}
+.info__foot5{
+    bottom: 565px;
+    left: 310px;
+}
